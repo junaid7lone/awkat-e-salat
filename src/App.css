@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Katibeh&display=swap');
+
 .App {
   text-align: center;
 }
@@ -19,4 +22,60 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.header{
+  height: 300px;
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 100px;
+  padding-top: 30px;
+  font-weight: bold;
+  color:#fff;
+}
+
+.prayers-list {
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+.date {
+  font-size: 40px;
+}
+
+.prayer-card-item{
+  /* margin: 20px; */
+  padding:20px;
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  font-size: 30px;
+  font-weight: bold;
+  /* border-radius: 3px; */
+  color:#000;
+  border-bottom: 1px solid #999;
+}
+
+/* 
+.Fajr{  background-color:#753a16}
+.Dhuhr{  background-color:#8dc1e8}
+.Asr{ background-color:#0097da}
+.Maghrib{ background-color:#d3503b}
+.Isha{ background-color:#293a69} */
+
+
+
+
+.name {
+  text-align: left;
+}
+
+.icon {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.urdu{
+  font-family: 'Katibeh', cursive;
+  text-align: right
 }
