@@ -46,14 +46,18 @@
 }
 
 .prayer-card-item{
-  /* margin: 20px; */
+  margin: 10px;
   padding:20px;
-  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-size: 30px;
   font-weight: bold;
-  /* border-radius: 3px; */
+  border-radius: 3px;
   color:#000;
-  border-bottom: 1px solid #999;
+  /* border-bottom: 1px solid #999; */
+}
+
+.prayer-card-item:first-child {
+  margin-top : 50px;
 }
 
 /* 
